@@ -90,7 +90,7 @@ export default function Footer() {
             © {new Date().getFullYear()} Liberation War Archive. All rights reserved.
           </p>
           <p className="text-sm text-white">
-            Developed by{' '}
+            Developed by&nbsp;
             <a
               href="https://ramrachai.com"
               target="_blank"
