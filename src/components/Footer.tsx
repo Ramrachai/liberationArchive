@@ -87,7 +87,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-gray-800 mt-12 pt-8 text-center space-y-2">
           <p className="text-sm">
-            © {new Date().getFullYear()} Liberation War Archive. All rights reserved.
+             {new Date().getFullYear()} Liberation War Archive. All rights reserved.
           </p>
           <p className="text-sm text-white">
             Developed by&nbsp;
