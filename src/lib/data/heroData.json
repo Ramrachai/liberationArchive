@@ -2,19 +2,19 @@
   "slides": [
     {
       "id": 1,
-      "image": "/images/hero/hero1.jpg",
+      "image": "/images/hero/hero8.jpg",
       "title": "Liberation War Heroes",
       "description": "Young freedom fighters ready for battle, 1971"
     },
     {
       "id": 2,
-      "image": "/images/hero/hero2.webp",
+      "image": "/images/hero/hero4.png",
       "title": "The Fight for Freedom",
       "description": "Mass uprising in Dhaka, March 1971"
     },
     {
       "id": 3,
-      "image": "/images/hero/hero3.webp",
+      "image": "/images/hero/hero1.jpg",
       "title": "Victory Day",
       "description": "Celebration of independence, December 16, 1971"
     }

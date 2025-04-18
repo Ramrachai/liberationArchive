@@ -9,11 +9,11 @@ export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navItems = [
-    { href: '#introduction', label: 'Introduction' },
-    { href: '#documents', label: 'Documents' },
-    { href: '#interviews', label: 'Interviews' },
-    { href: '#gallery', label: 'Gallery' },
-    { href: '#contact', label: 'Contact' },
+    { href: '/introduction', label: 'Introduction' },
+    { href: '/documents', label: 'Documents' },
+    { href: '/interviews', label: 'Interviews' },
+    { href: '/gallery', label: 'Gallery' },
+    { href: '/contact', label: 'Contact' },
   ];
 
   const toggleMenu = () => {
@@ -25,7 +25,7 @@ export default function Header() {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-black/60 backdrop-blur-sm">
+    <header className=" bg-black/90 backdrop-blur-sm">
       <div className="container md:w-[80%] mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           <Link href="/" className="flex items-center space-x-2">
@@ -38,12 +38,12 @@ export default function Header() {
             <ul className="flex space-x-6">
               {navItems.map((item) => (
                 <li key={item.href}>
-                  <a
+                  <Link
                     href={item.href}
                     className="text-white hover:text-gray-300 transition-colors"
                   >
                     {item.label}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -71,13 +71,13 @@ export default function Header() {
               <ul className="flex flex-col space-y-4">
                 {navItems.map((item) => (
                   <li key={item.href}>
-                    <a
+                    <Link
                       href={item.href}
                       className="text-white hover:text-gray-300 transition-colors block px-2 py-1"
                       onClick={closeMenu}
                     >
                       {item.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
