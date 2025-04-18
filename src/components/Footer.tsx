@@ -25,7 +25,7 @@ export default function Footer() {
             <h3 className="text-xl font-bold text-white mb-4">About the Archive</h3>
             <p className="text-sm leading-relaxed">
               The Liberation War Archive is dedicated to preserving and sharing the historical records
-              of Bangladesh's Liberation War of 1971. We aim to honor the memory of our freedom
+              of Bangladesh Liberation War of 1971. We aim to honor the memory of our freedom
               fighters and educate future generations about this significant period in our history.
             </p>
           </div>
