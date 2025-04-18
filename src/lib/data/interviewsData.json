@@ -1,0 +1,35 @@
+{
+  "title": "Interviews",
+  "videos": [
+    {
+      "id": 1,
+      "title": "Freedom Fighter's Testimony",
+      "youtubeId": "OnNJUdlyzio",
+      "description": "Personal account of the liberation war by a freedom fighter"
+    },
+    {
+      "id": 2,
+      "title": "The Birth of Bangladesh",
+      "youtubeId": "AlP7z1IY7dw",
+      "description": "Documentary on the Liberation War of Bangladesh"
+    },
+    {
+      "id": 3,
+      "title": "Historical Perspective",
+      "youtubeId": "gHricAXRCn0",
+      "description": "A detailed analysis of the Liberation War"
+    },
+    {
+      "id": 4,
+      "title": "Victory Day Celebration",
+      "youtubeId": "7jd9J5Vgbkw",
+      "description": "Celebration of Victory Day in Bangladesh"
+    },
+    {
+      "id": 5,
+      "title": "War Veterans Remember",
+      "youtubeId": "UUzPciR8nQ4",
+      "description": "War veterans share their memories of the Liberation War"
+    }
+  ]
+} 

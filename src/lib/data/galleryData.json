@@ -1,0 +1,41 @@
+{
+  "title": "Photographs Gallery",
+  "images": [
+    {
+      "id": 1,
+      "src": "/images/gallery/image1.jpg",
+      "alt": "Historical Documents",
+      "caption": "Original documents from the liberation war"
+    },
+    {
+      "id": 2,
+      "src": "/images/gallery/image2.jpg",
+      "alt": "Military Equipment",
+      "caption": "Military equipment used during the war"
+    },
+    {
+      "id": 3,
+      "src": "/images/gallery/image3.webp",
+      "alt": "Freedom Fighters",
+      "caption": "Freedom fighters in action"
+    },
+    {
+      "id": 4,
+      "src": "/images/gallery/image4.webp",
+      "alt": "Civilian Life",
+      "caption": "Civilian life during the war"
+    },
+    {
+      "id": 5,
+      "src": "/images/gallery/image5.avif",
+      "alt": "Victory Celebration",
+      "caption": "Celebrations after victory"
+    },
+    {
+      "id": 6,
+      "src": "/images/gallery/image6.jpg",
+      "alt": "Historical Landmarks",
+      "caption": "Important locations during the war"
+    }
+  ]
+} 
