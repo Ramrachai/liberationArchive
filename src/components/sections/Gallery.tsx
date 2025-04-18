@@ -22,14 +22,14 @@ export default function Gallery() {
 
   return (
     <section id="gallery" className="py-20 bg-white">
-      <div className="container w-[80%] mx-auto px-4">
+      <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold text-center mb-12">{galleryData.title}</h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {galleryData.images.map((image, index) => (
             <div
               key={image.id}
-              className="relative aspect-square cursor-pointer overflow-hidden rounded-lg shadow-lg transition-transform hover:scale-101 max-h-[300px]"
+              className="relative aspect-video cursor-pointer overflow-hidden rounded-lg shadow-lg transition-transform hover:scale-101 max-h-[300px]"
               onClick={() => openLightbox(index)}
             >
               <Image

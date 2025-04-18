@@ -1,6 +1,5 @@
 import React from 'react'
 import Hero from '@/components/Hero'
-import heroData from '@/lib/data/heroData.json' 
 import Introduction from '@/components/sections/Introduction'
 
 
